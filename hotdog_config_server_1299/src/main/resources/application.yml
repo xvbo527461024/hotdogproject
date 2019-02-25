@@ -13,6 +13,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xvbo527461024/hotdog.git  #git文件地址
+          uri: https://github.com/xvbo527461024/hotdogConfig.git  #git文件地址
           username: xvbo527461024
           password: 13541489507xvbo
