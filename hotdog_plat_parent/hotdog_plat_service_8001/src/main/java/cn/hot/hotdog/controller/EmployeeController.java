@@ -13,9 +13,9 @@ public class EmployeeController {
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public AjaxResult login(@RequestBody Employee employee){
         if (employee.getName().equals("admin")&&employee.getPassword().equals("admin")){
-            return new AjaxResult().setSuccess(true).setMes("登录成功");
+            return new AjaxResult().setSuccess(true).setMsg("登录成功");
         }else {
-            return new AjaxResult().setMes("登录失败").setSuccess(false);
+            return new AjaxResult().setMsg("登录失败").setSuccess(false);
         }
     }
 }

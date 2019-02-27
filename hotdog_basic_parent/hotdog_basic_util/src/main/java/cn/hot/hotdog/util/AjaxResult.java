@@ -2,7 +2,7 @@ package cn.hot.hotdog.util;
 
 public class AjaxResult {
     private boolean success=true;
-    private String mes="操作成功";
+    private String msg="操作成功";
     private Object object;
     public static AjaxResult me(){
         return new AjaxResult();
@@ -17,12 +17,12 @@ public class AjaxResult {
         return this;
     }
 
-    public String getMes() {
-        return mes;
+    public String getMsg() {
+        return msg;
     }
 
-    public AjaxResult setMes(String mes) {
-        this.mes = mes;
+    public AjaxResult setMsg(String mes) {
+        this.msg = mes;
         return this;
     }
 
@@ -40,7 +40,7 @@ public class AjaxResult {
     public String toString() {
         return "AjaxResult{" +
                 "success=" + success +
-                ", mes='" + mes + '\'' +
+                ", mes='" + msg+ '\'' +
                 ", object=" + object +
                 '}';
     }

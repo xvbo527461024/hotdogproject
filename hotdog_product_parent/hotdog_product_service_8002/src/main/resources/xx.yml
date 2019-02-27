@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: product-provider
+server:
+  port: 8002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.eureka-7001.com:7001/eureka  #告诉服务提供者要把服务注册到哪儿 #单机环境
+  instance:
+    prefer-ip-address: true #显示客户端真实ip
+ mybatis-plus:
+  mapper-locations: classpath:cn/hot/hotdog/mapper/*Mapper.xml #扫mapper映射
+  type-aliases-package: cn.hot.hotdog.domain,cn.hot.hotdog.query  #别名的配置
+
+---
+spring:
+  profiles: test
+  application:
+    name: product-provider-test
+server:
+  port: 8003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.eureka-7001.com:7001/eureka  #告诉服务提供者要把服务注册到哪儿 #单机环境
+  instance:
+prefer-ip-address: true #显示客户端真实ip

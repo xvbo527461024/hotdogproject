@@ -14,6 +14,8 @@
     <module>hotdog_config_server_1299</module>
     <module>hotdog_basic_parent</module>
     <module>hotdog_plat_parent</module>
+    <module>hotdog_product_parent</module>
+      <module>hotdog_myplus_greatcode</module>
   </modules>
 
   <name>hotdog_parent</name>
