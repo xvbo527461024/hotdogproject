@@ -6,6 +6,10 @@ public class QueryBase {
 
     private Integer page=0;//当前页
     private Integer rows=10;//每页条数
+    private Integer start=0;//从哪里开始
+    public Integer getStart(){
+        return (this.page-1)*this.rows;
+    }
 
 
     public String getKeyword() {
