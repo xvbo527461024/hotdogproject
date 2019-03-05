@@ -89,6 +89,6 @@ public class ProductTypeController {
     public List<ProductType> getTreeDate(){
        // System.out.println("我进后台的productType:"+productTypeService.getTreeDate());
 
-        return productTypeService.getTreeDate() ;
+        return productTypeService.getTreeDateRedis();
     }
 }

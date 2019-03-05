@@ -5,7 +5,6 @@ import cn.hot.hotdog.service.IBrandService;
 import cn.hot.hotdog.domain.Brand;
 import cn.hot.hotdog.util.AjaxResult;
 import cn.hot.hotdog.util.PageList;
-import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,6 +23,7 @@ public class BrandController {
     */
     @RequestMapping(value="/save",method= RequestMethod.POST)
     public AjaxResult save(@RequestBody Brand brand){
+
         try {
             if(brand.getId()!=null){
 

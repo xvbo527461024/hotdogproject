@@ -15,12 +15,16 @@
         <module name="hotdog_platservice_8001" />
         <module name="hotdog_product_interface" />
         <module name="hotdog_product_service_8002" />
+        <module name="hotdog_redies_interface" />
+        <module name="hotdog_redis_service_8003" />
         <module name="hotdog_zuul_server_9527" />
+        <module name="hotdog_zuul_server_9528" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hotdog_basic_parent" target="1.8" />
       <module name="hotdog_basic_util" target="1.8" />
+      <module name="hotdog_common_parent" target="1.8" />
       <module name="hotdog_config_server_1299" target="1.8" />
       <module name="hotdog_eureka_server_7001" target="1.8" />
       <module name="hotdog_myplus_greatcode" target="1.8" />
@@ -32,7 +36,10 @@
       <module name="hotdog_product_interface" target="1.8" />
       <module name="hotdog_product_parent" target="1.8" />
       <module name="hotdog_product_service_8002" target="1.8" />
+      <module name="hotdog_redies_interface" target="1.8" />
+      <module name="hotdog_redis_service_8003" target="1.8" />
       <module name="hotdog_zuul_server_9527" target="1.8" />
+      <module name="hotdog_zuul_server_9528" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,10 +1,10 @@
-package cn.itsource.aigou.query;
+package cn.hot.hotdog.query;
 
-import cn.itsource.aigou.query.BaseQuery;
+import cn.hot.hotdog.query.BaseQuery;
 /**
  *
  * @author ${author}
  * @since ${date}
  */
-public class ${table.entityName}Query extends BaseQuery{
+public class ${table.entityName}Query extends QueryBase{
 }

@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
+
 
 /**
  * <p>
@@ -39,18 +41,84 @@ public class Product extends Model<Product> {
     /**
      * 商品类型ID
      */
-    @TableField("product_Type")
-    private Long productType;
+    @TableField("product_Type_id")
+    private Long productTypeId;
+
+    @TableField(exist = false)
+    private ProductExt productExt;
+
+    public ProductExt getProductExt() {
+        return productExt;
+    }
+
+    public void setProductExt(ProductExt productExt) {
+        this.productExt = productExt;
+    }
+
+    public Long getProductTypeId() {
+        return productTypeId;
+    }
+
+    public void setProductTypeId(Long productTypeId) {
+        this.productTypeId = productTypeId;
+    }
+
+    @TableField(exist = false)
+    private ProductType productType;
+
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
+    }
+
     /**
+
      * 上架时间
      */
+
     private Long onSaleTime;
+    @TableField(exist = false)
+    private String onSaleDate;
     /**
      * 下架时间
      */
     private Long offSaleTime;
+
+    public String getOnSaleDate() {
+        if (onSaleTime==null){
+            return null;
+        }
+        SimpleDateFormat simpleFormatter = new SimpleDateFormat("yyyy:DD:mm");
+        String format = simpleFormatter.format(onSaleTime);
+        return format;
+    }
+
+    public void setOnSaleDate(String onSaleDate) {
+        this.onSaleDate = onSaleDate;
+    }
+
+    public String getOffSaleDate() {
+        if (offSaleTime==null){
+            return null;
+        }
+        SimpleDateFormat simpleFormatter = new SimpleDateFormat("yyyy:DD:mm");
+        String format = simpleFormatter.format(offSaleTime);
+        return format;
+    }
+
+    public void setOffSaleDate(String offSaleDate) {
+        this.offSaleDate = offSaleDate;
+    }
+
+    @TableField(exist = false)
+    private String offSaleDate;
+
     @TableField("brand_Id")
     private Long brandId;
+
     /**
      * 状态
      */
@@ -134,14 +202,6 @@ public class Product extends Model<Product> {
 
     public void setCode(String code) {
         this.code = code;
-    }
-
-    public Long getProductType() {
-        return productType;
-    }
-
-    public void setProductType(Long productType) {
-        this.productType = productType;
     }
 
     public Long getOnSaleTime() {
@@ -270,7 +330,7 @@ public class Product extends Model<Product> {
         ", name=" + name +
         ", subName=" + subName +
         ", code=" + code +
-        ", productType=" + productType +
+        ", productType=" + productTypeId +
         ", onSaleTime=" + onSaleTime +
         ", offSaleTime=" + offSaleTime +
         ", brandId=" + brandId +
@@ -287,4 +347,6 @@ public class Product extends Model<Product> {
         ", badCommentCount=" + badCommentCount +
         "}";
     }
+
+
 }

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_parent.iml" filepath="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_parent.iml" group="hotdog_basic_parent and modules" />
       <module fileurl="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/hotdog_basic_util.iml" filepath="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/hotdog_basic_util.iml" group="hotdog_basic_parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_common_parent.iml" filepath="$PROJECT_DIR$/hotdog_common_parent/hotdog_common_parent.iml" group="hotdog_common_parent and modules" />
       <module fileurl="file://$PROJECT_DIR$/hotdog_config_server_1299/hotdog_config_server_1299.iml" filepath="$PROJECT_DIR$/hotdog_config_server_1299/hotdog_config_server_1299.iml" />
       <module fileurl="file://$PROJECT_DIR$/hotdog_eureka_server_7001/hotdog_eureka_server_7001.iml" filepath="$PROJECT_DIR$/hotdog_eureka_server_7001/hotdog_eureka_server_7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/hotdog_myplus_greatcode/hotdog_myplus_greatcode.iml" filepath="$PROJECT_DIR$/hotdog_myplus_greatcode/hotdog_myplus_greatcode.iml" />
@@ -14,7 +15,10 @@
       <module fileurl="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/hotdog_product_interface.iml" filepath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/hotdog_product_interface.iml" group="hotdog_product_parent and modules" />
       <module fileurl="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_parent.iml" filepath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_parent.iml" group="hotdog_product_parent and modules" />
       <module fileurl="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/hotdog_product_service_8002.iml" filepath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/hotdog_product_service_8002.iml" group="hotdog_product_parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/hotdog_redies_interface.iml" filepath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/hotdog_redies_interface.iml" group="hotdog_common_parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/hotdog_redis_service_8003.iml" filepath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/hotdog_redis_service_8003.iml" group="hotdog_common_parent and modules" />
       <module fileurl="file://$PROJECT_DIR$/hotdog_zuul_server_9527/hotdog_zuul_server_9527.iml" filepath="$PROJECT_DIR$/hotdog_zuul_server_9527/hotdog_zuul_server_9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotdog_zuul_server_9528/hotdog_zuul_server_9528.iml" filepath="$PROJECT_DIR$/hotdog_zuul_server_9528/hotdog_zuul_server_9528.iml" />
     </modules>
   </component>
 </project>

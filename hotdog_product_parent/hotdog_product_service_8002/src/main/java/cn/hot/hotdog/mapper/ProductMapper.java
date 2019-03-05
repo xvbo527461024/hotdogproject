@@ -16,5 +16,9 @@ import java.util.List;
  */
 public interface ProductMapper extends BaseMapper<Product> {
 
+    long queryPageCount(ProductQuery query);
+
+    List<Product> queryPageList(ProductQuery query);
+
 
 }

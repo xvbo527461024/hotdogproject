@@ -1,8 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6481d2f9-7c51-47d5-8889-ea982c587792" name="Default" comment="2019.2.28 22:03">
+    <list default="true" id="6481d2f9-7c51-47d5-8889-ea982c587792" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_client_java_1_27_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/constans/GlobeConstans.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_common_parent.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/hotdog_redies_interface.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/PageStaticClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/PageStaticClientFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/RedisClientFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/ResClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home/common-footer.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home/common-header-top.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home/common-header.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home/common-link.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home/common-nav.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/home/common-right-sidebar.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/product.type.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/resources/template/product.type.vm.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/hotdog_redis_service_8003.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/RsdisServerApplication_8003.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/config/Swagger2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/PageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/RedisController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/fastdfaController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/FastDfsApiOpr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/RedisUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/VelocityUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/resources/fdfs_client.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_common_parent/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductExt.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductMedia.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Specification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductExtQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductMediaQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/SpecificationQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductExtController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductMediaController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/SpecificationController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductExtMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductMediaMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/SpecificationMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductExtService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductMediaService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/ISpecificationService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductExtServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductMediaServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/SpecificationServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductExtMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductMediaMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/SpecificationMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/src/test/java/cn/hot/hotdog/AppTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/java/GenteratorCode.java" afterPath="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/java/GenteratorCode.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/controller.java.vm" afterPath="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/controller.java.vm" />
+      <change beforePath="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/query.java.vm" afterPath="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/query.java.vm" />
+      <change beforePath="$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_parent.iml" afterPath="$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_parent.iml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/hotdog_product_interface.iml" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/hotdog_product_interface.iml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/pom.xml" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Product.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Product.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_parent.iml" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_parent.iml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/hotdog_product_service_8002.iml" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/hotdog_product_service_8002.iml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/pom.xml" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/ProductApplication_8002.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/ProductApplication_8002.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/BrandController.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/BrandController.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductController.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductController.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductTypeController.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductTypeController.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductMapper.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductMapper.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductService.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductService.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductTypeService.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductTypeService.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductTypeServiceImpl.java" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductTypeServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductMapper.xml" afterPath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/xx.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hotdog_product_parent/pom.xml" afterPath="$PROJECT_DIR$/hotdog_product_parent/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/hotdog_zuul_server_9527.iml" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/hotdog_zuul_server_9528.iml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/pom.xml" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/ZuulApplication_9527.java" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/src/main/java/cn/hot/hotdog/ZuulApplication_9527.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/config/GlobalCorsConfig.java" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/src/main/java/cn/hot/hotdog/config/GlobalCorsConfig.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/swagger/DocumentationConfig.java" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/src/main/java/cn/hot/hotdog/swagger/DocumentationConfig.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/swagger/SwaggerConfig.java" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/src/main/java/cn/hot/hotdog/swagger/SwaggerConfig.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/resoures/application2.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/resoures/bootstrap.yml" afterPath="$PROJECT_DIR$/hotdog_zuul_server_9528/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/resoures/yml.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/src/test/java/cn/hot/hotdog/AppTest.java" afterPath="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/test/java/cn/hot/hotdog/AppTest.java" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/target/classes/cn/hot/hotdog/ZuulApplication_9527.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/target/classes/cn/hot/hotdog/swagger/DocumentationConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/target/classes/cn/hot/hotdog/swagger/SwaggerConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hotdog_zuul_server_9527/target/test-classes/cn/hot/hotdog/AppTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +126,10 @@
     <ignored path="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/target/" />
     <ignored path="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/target/" />
     <ignored path="$PROJECT_DIR$/hotdog_myplus_greatcode/target/" />
+    <ignored path="$PROJECT_DIR$/hotdog_common_parent/target/" />
+    <ignored path="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/target/" />
+    <ignored path="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/target/" />
+    <ignored path="$PROJECT_DIR$/hotdog_zuul_server_9528/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,46 +149,118 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hotdog_parent" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BrandServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/BrandServiceImpl.java">
+      <file leaf-file-name="ZuulApplication_9527.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_zuul_server_9528/src/main/java/cn/hot/hotdog/ZuulApplication_9527.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="210">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
-                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrandController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/BrandController.java">
+      <file leaf-file-name="PlatServiceApplication_8001.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/java/cn/hot/hotdog/PlatServiceApplication_8001.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBrandService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IBrandService.java">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="-725">
+              <caret line="107" column="10" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LetterUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/LetterUtil.java">
+      <file leaf-file-name="ProductExt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductExt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+            <state relative-caret-position="565">
+              <caret line="76" column="44" lean-forward="false" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RsdisServerApplication_8003.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/RsdisServerApplication_8003.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductApplication_8002.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/ProductApplication_8002.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Specification.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Specification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Brand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1304">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,13 +270,126 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>OnSaleDate</find>
+      <find>onSs</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GotoClassSymbolConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="$XSLT" />
+      <filtered-out-file-type name="AIDL" />
+      <filtered-out-file-type name="AndroidDataBinding" />
+      <filtered-out-file-type name="Angular2HTML" />
+      <filtered-out-file-type name="AngularJS" />
+      <filtered-out-file-type name="Apple JS" />
+      <filtered-out-file-type name="Asp" />
+      <filtered-out-file-type name="AspectJ" />
+      <filtered-out-file-type name="CFML" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="CoffeeScript" />
+      <filtered-out-file-type name="CoffeeScriptLiterate" />
+      <filtered-out-file-type name="DB2" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="Decompiled SWF" />
+      <filtered-out-file-type name="Derby" />
+      <filtered-out-file-type name="Drools" />
+      <filtered-out-file-type name="ECMA Script Level 4" />
+      <filtered-out-file-type name="ECMAScript 6" />
+      <filtered-out-file-type name="EJBQL" />
+      <filtered-out-file-type name="EL" />
+      <filtered-out-file-type name="EQL" />
+      <filtered-out-file-type name="FTL" />
+      <filtered-out-file-type name="Flow JS" />
+      <filtered-out-file-type name="GSP" />
+      <filtered-out-file-type name="GWT JavaScript" />
+      <filtered-out-file-type name="GenericSQL" />
+      <filtered-out-file-type name="Gherkin" />
+      <filtered-out-file-type name="Groovy" />
+      <filtered-out-file-type name="H2" />
+      <filtered-out-file-type name="HQL" />
+      <filtered-out-file-type name="HSQLDB" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="HTTP Request" />
+      <filtered-out-file-type name="Haml" />
+      <filtered-out-file-type name="InjectedFreeMarker" />
+      <filtered-out-file-type name="JAVA" />
+      <filtered-out-file-type name="JPAQL" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JQuery-CSS" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="JSPX" />
+      <filtered-out-file-type name="JSRegexp" />
+      <filtered-out-file-type name="JSX Harmony" />
+      <filtered-out-file-type name="JShellLanguage" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="JavaScript 1.5" />
+      <filtered-out-file-type name="JavaScript 1.6" />
+      <filtered-out-file-type name="JavaScript 1.7" />
+      <filtered-out-file-type name="JavaScript 1.8" />
+      <filtered-out-file-type name="LESS" />
+      <filtered-out-file-type name="Manifest" />
+      <filtered-out-file-type name="Markdown" />
+      <filtered-out-file-type name="Mxml" />
+      <filtered-out-file-type name="MySQL" />
+      <filtered-out-file-type name="Nashorn JS" />
+      <filtered-out-file-type name="OGNL" />
+      <filtered-out-file-type name="Oracle" />
+      <filtered-out-file-type name="OracleSqlPlus" />
+      <filtered-out-file-type name="PROGUARD" />
+      <filtered-out-file-type name="Play" />
+      <filtered-out-file-type name="PointcutExpression" />
+      <filtered-out-file-type name="PostgreSQL" />
+      <filtered-out-file-type name="PostgresPLSQL" />
+      <filtered-out-file-type name="Properties" />
+      <filtered-out-file-type name="RELAX-NG" />
+      <filtered-out-file-type name="Redshift" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="Renderscript" />
+      <filtered-out-file-type name="SASS" />
+      <filtered-out-file-type name="SCSS" />
+      <filtered-out-file-type name="SPI" />
+      <filtered-out-file-type name="SQL" />
+      <filtered-out-file-type name="SQL92" />
+      <filtered-out-file-type name="SQLite" />
+      <filtered-out-file-type name="SpEL" />
+      <filtered-out-file-type name="SpringDataQL" />
+      <filtered-out-file-type name="Stylus" />
+      <filtered-out-file-type name="Sybase" />
+      <filtered-out-file-type name="TEXT" />
+      <filtered-out-file-type name="TML" />
+      <filtered-out-file-type name="TSQL" />
+      <filtered-out-file-type name="ThymeleafExpressions" />
+      <filtered-out-file-type name="ThymeleafIterateExpressions" />
+      <filtered-out-file-type name="ThymeleafSpringSecurityExtras" />
+      <filtered-out-file-type name="ThymeleafTemplatesExpressions" />
+      <filtered-out-file-type name="ThymeleafUrlExpressions" />
+      <filtered-out-file-type name="TypeScript" />
+      <filtered-out-file-type name="TypeScript JSX" />
+      <filtered-out-file-type name="UAST" />
+      <filtered-out-file-type name="UastContextLanguage" />
+      <filtered-out-file-type name="VTL" />
+      <filtered-out-file-type name="Vue" />
+      <filtered-out-file-type name="VueJS" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="XPath" />
+      <filtered-out-file-type name="XPath2" />
+      <filtered-out-file-type name="YouTrack" />
+      <filtered-out-file-type name="kotlin" />
+      <filtered-out-file-type name="yaml" />
+    </file-type-list>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -103,57 +399,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/swagger/DocumentationConfig.java" />
-        <option value="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/ZuulApplication_9527.java" />
-        <option value="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/swagger/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/resoures/application.yml" />
-        <option value="$PROJECT_DIR$/hotdog_config_server_1299/src/main/java/cn/hot/hotdog/ConfigApplication_1299.java" />
-        <option value="$PROJECT_DIR$/hotdog_config_server_1299/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/resoures/yml.yml" />
-        <option value="$PROJECT_DIR$/hotdog_zuul_server_9527/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/resoures/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hotdog_plat_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/java/cn/hot/hotdog/config/GlobalCorsConfig.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_myplus_greatcode/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/gen.properties" />
-        <option value="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/java/GenteratorCode.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/ProductApplication_8002.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/encrypt/DES.java" />
-        <option value="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/CodeGenerateUtils.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/BrandQuery.java" />
-        <option value="$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductTypeQuery.java" />
-        <option value="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/AjaxResult.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hotdog_config_server_1299/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/java/cn/hot/hotdog/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/config/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/pom.xml" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Product.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Brand.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductMapper.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductQuery.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/query/QueryBase.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/BrandMapper.xml" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductTypeService.java" />
         <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductType.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductTypeController.java" />
-        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IBrandService.java" />
         <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/RsdisServerApplication_8003.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/conf/Swagger2.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductTypeController.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/RedisClientFactory.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductTypeService.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/ProductApplication_8002.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/hotdog_zuul_server_9528/pom.xml" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/ResClient.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/VelocityUtils.java" />
+        <option value="$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/constans/GlobeConstans.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/PageStaticClientFactory.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/src/main/java/cn/hot/hotdog/client/PageStaticClient.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/FastDfsApiOpr.java" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/resources/fdfs_client.conf.txt" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/pom.xml" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/pom.xml" />
+        <option value="$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/fastdfaController.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductMediaQuery.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/SpecificationController.java" />
         <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductExtQuery.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductExtController.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductMediaController.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/BrandMapper.xml" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/query.java.vm" />
+        <option value="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/controller.java.vm" />
+        <option value="$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/java/GenteratorCode.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/SpecificationQuery.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Product.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductExt.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Specification.java" />
+        <option value="$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductController.java" />
       </list>
     </option>
   </component>
@@ -184,11 +480,28 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hotdog_product_interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hotdog_product_interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="hotdog_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hotdog_redis_service_8003" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hotdog_redis_service_8003" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hotdog_zuul_server_9528" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hotdog_zuul_server_9528" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -196,10 +509,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="378" />
-    <option name="y" value="142" />
-    <option name="width" value="1292" />
-    <option name="height" value="697" />
+    <option name="x" value="107" />
+    <option name="y" value="104" />
+    <option name="width" value="1768" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -216,7 +529,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,9 +544,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,16 +566,24 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.hot.hotdog" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_product_parent\hotdog_product_service_8002\src\main\resources\cn\hot\hotdog\mapper" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_common_parent\hotdog_redis_service_8003\src\main\java\cn\hot\hotdog\util" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_common_parent\hotdog_redies_interface\src\main\resources" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_zuul_server_9528\src\main\java\cn\hot\hotdog" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_zuul_server_9528\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.hot.hotdog.conf" />
       <recent name="cn.hot.hotdog.config" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DELL\hotdog_parent\hotdog_basic_parent\hotdog_basic_util\src\main\java\cn\hot\hotdog\util\query" />
-      <recent name="C:\Users\DELL\hotdog_parent\hotdog_basic_parent\hotdog_basic_util\src\main\java\cn\hot\hotdog\util" />
-      <recent name="C:\Users\DELL\hotdog_parent\hotdog_plat_parent\hotdog_plat_service_8001\src\main\resources" />
-      <recent name="C:\Users\DELL\hotdog_parent\hotdog_myplus_greatcode\src\main\resources" />
-      <recent name="C:\Users\DELL\hotdog_parent\hotdog_zuul_server_9527\src\main\resoures" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\hotdog_parent" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_product_parent\hotdog_product_service_8002" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_product_parent\hotdog_product_interface\src" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_common_parent\hotdog_redis_service_8003\src\main\java\cn\hot\hotdog\controller" />
+      <recent name="C:\Users\DELL\hotdog_parent\hotdog_zuul_server_9528\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,7 +598,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LetterUtil">
+  <component name="RunManager" selected="Application.ProductController">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -323,33 +644,14 @@
       <module name="hotdog_eureka_server_7001" />
       <envs />
     </configuration>
-    <configuration name="LetterUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.hot.hotdog.util.*" />
+          <option name="PATTERN" value="cn.hot.hotdog.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.hot.hotdog.util.LetterUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hotdog_basic_util" />
-      <envs />
-    </configuration>
-    <configuration name="ProductApplication_8002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.hot.hotdog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.hot.hotdog.ProductApplication_8002" />
+      <option name="MAIN_CLASS_NAME" value="cn.hot.hotdog.controller.ProductController" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -361,14 +663,14 @@
       <module name="hotdog_product_service_8002" />
       <envs />
     </configuration>
-    <configuration name="ZuulApplication_9527" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RsdisServerApplication_8003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cn.hot.hotdog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.hot.hotdog.ZuulApplication_9527" />
+      <option name="MAIN_CLASS_NAME" value="cn.hot.hotdog.RsdisServerApplication_8003" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -377,7 +679,26 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hotdog_zuul_server_9527" />
+      <module name="hotdog_redis_service_8003" />
+      <envs />
+    </configuration>
+    <configuration name="ZuulApplication_9527" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.hot.hotdog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.hot.hotdog.ZuulApplication_9527" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/hotdog_zuul_server_9528" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_111\jre" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hotdog_zuul_server_9528" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -472,13 +793,13 @@
       <item index="2" class="java.lang.String" itemvalue="Application.EurekaServerApplication_7001" />
       <item index="3" class="java.lang.String" itemvalue="Application.ZuulApplication_9527" />
       <item index="4" class="java.lang.String" itemvalue="Application.ConfigApplication_1299" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ProductApplication_8002" />
-      <item index="6" class="java.lang.String" itemvalue="Application.LetterUtil" />
+      <item index="5" class="java.lang.String" itemvalue="Application.RsdisServerApplication_8003" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ProductController" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ProductApplication_8002" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LetterUtil" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ProductController" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RsdisServerApplication_8003" />
         <item index="2" class="java.lang.String" itemvalue="Application.ZuulApplication_9527" />
         <item index="3" class="java.lang.String" itemvalue="Application.ConfigApplication_1299" />
         <item index="4" class="java.lang.String" itemvalue="Application.EurekaServerApplication_7001" />
@@ -512,7 +833,15 @@
       <workItem from="1551069950875" duration="619000" />
       <workItem from="1551175095742" duration="3867000" />
       <workItem from="1551229922261" duration="17743000" />
-      <workItem from="1551280757688" duration="16158000" />
+      <workItem from="1551280757688" duration="16786000" />
+      <workItem from="1551401631415" duration="5989000" />
+      <workItem from="1551424125918" duration="9162000" />
+      <workItem from="1551440715626" duration="1168000" />
+      <workItem from="1551447087810" duration="14139000" />
+      <workItem from="1551487705426" duration="3030000" />
+      <workItem from="1551510150786" duration="28639000" />
+      <workItem from="1551660847623" duration="21404000" />
+      <workItem from="1551746708848" duration="16645000" />
     </task>
     <task id="LOCAL-00001" summary="11:31第一次更新">
       <created>1551065519618</created>
@@ -577,76 +906,88 @@
       <option name="project" value="LOCAL" />
       <updated>1551362624995</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2019.2.28 22:03">
+      <created>1551362785377</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551362785377</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69478000" />
+    <option name="totallyTimeSpent" value="170282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5792474" sideWeight="0.14377682" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060433295" sideWeight="0.08637339" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15504292" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07564378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7616876" sideWeight="0.9061159" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61801594" sideWeight="0.8572961" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5792474" sideWeight="0.85622317" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35085836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16210045" sideWeight="0.9136266" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35997853" sideWeight="0.6248575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36695278" sideWeight="0.37514254" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8164196" sideWeight="0.8921674" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8164196" sideWeight="0.8921674" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07981756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36319742" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060433295" sideWeight="0.08637339" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15504292" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07564378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61801594" sideWeight="0.8572961" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.9136266" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8164196" sideWeight="0.8921674" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31330472" sideWeight="0.6248575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36695278" sideWeight="0.37514254" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,148 +1013,340 @@
           <line>12</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hotdog_config_server_1299/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/ZuulApplication_9527.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/fastdfaController.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/RsdisServerApplication_8003.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/CodeGenerateUtils.java">
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/VelocityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.2.0/mybatis-plus-support-2.2.0.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/spring-cloud-netflix-zuul-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/csource/fastdfs-client-java/1.27-SNAPSHOT/fastdfs-client-java-1.27-SNAPSHOT.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/query.java" />
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/BaseQuery.java" />
-    <entry file="file://$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_interface/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/resources/fdfs_client.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductTypeQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/AjaxResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="372">
+          <caret line="1699" column="0" lean-forward="false" selection-start-line="1699" selection-start-column="0" selection-end-line="1699" selection-end-column="0" />
           <folding>
-            <element signature="e#180#181#0" expanded="false" />
-            <element signature="e#219#220#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#283#284#0" expanded="false" />
-            <element signature="e#425#426#0" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#66457#66458#0" expanded="false" />
+            <element signature="e#66495#66496#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.2.0/mybatis-plus-support-2.2.0.jar!/com/baomidou/mybatisplus/plugins/Page.class">
+    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/query/QueryBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/xx.yml">
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="36">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_config_server_1299/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redies_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="422">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="396">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        <state relative-caret-position="203">
+          <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/resoures/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/util/FastDfsApiOpr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="203">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/swagger/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/swagger/DocumentationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/java/cn/hot/hotdog/swappger/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/config/Swagger2.java">
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/controller/fastdfaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductExtQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductMediaQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductExtController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1618">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductMediaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1690">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/logging/SimpleFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductExtServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/java/cn/hot/hotdog/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductExtService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="47" column="72" lean-forward="false" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.2.0/mybatis-plus-support-2.2.0.jar!/com/baomidou/mybatisplus/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/query.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/resources/templates/controller.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_myplus_greatcode/src/main/java/GenteratorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <marker date="1551720967759" expanded="true" signature="2073:2191" ph="select count... t_product" />
+            <marker date="1551720967759" expanded="true" signature="2368:2616" ph="select p.*, t_product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductExtMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/SpecificationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/BrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1551333968153" expanded="true" signature="1184:1271" ph="SELECT count... t_brand" />
+            <marker date="1551333968153" expanded="true" signature="1400:1576" ph="SELECT tb.*,... t_brand" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/SpecificationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="81" column="62" lean-forward="false" selection-start-line="81" selection-start-column="62" selection-end-line="81" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/SpecificationQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -833,285 +1366,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_zuul_server_9527/src/main/java/cn/hot/hotdog/ZuulApplication_9527.java">
+    <entry file="file://$PROJECT_DIR$/hotdog_zuul_server_9528/src/main/java/cn/hot/hotdog/ZuulApplication_9527.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/ProductApplication_8002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding />
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/java/cn/hot/hotdog/PlatServiceApplication_8001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_plat_parent/hotdog_plat_service_8001/src/main/java/cn/hot/hotdog/controller/EmployeeController.java">
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="e#2529#2530#0" expanded="true" />
-            <element signature="e#2563#2564#0" expanded="true" />
-            <element signature="e#2615#2616#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <marker date="1551326335515" expanded="false" signature="2199:2208" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/BrandQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/query/QueryBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/query/ProductQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="166">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/mapper/BrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/resources/cn/hot/hotdog/mapper/BrandMapper.xml">
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/ProductApplication_8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_common_parent/hotdog_redis_service_8003/src/main/java/cn/hot/hotdog/RsdisServerApplication_8003.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="38" column="65" lean-forward="true" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1551333968153" expanded="true" signature="1184:1271" ph="SELECT count... t_brand" />
-            <marker date="1551333968153" expanded="true" signature="1400:1511" ph="SELECT tb.id... t_brand" />
-            <marker date="1551333968153" expanded="true" signature="1400:1576" ph="SELECT tb.id... t_brand" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductType.java">
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/ProductExt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="565">
+          <caret line="76" column="44" lean-forward="false" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Specification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductTypeController.java">
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IProductTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="-725">
+          <caret line="107" column="10" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/ProductTypeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_interface/src/main/java/cn/hot/hotdog/domain/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.2.0/mybatis-plus-support-2.2.0.jar!/com/baomidou/mybatisplus/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/PropertiesHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/BitStatesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1649">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/StrUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/ProductStateConsts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/PageList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-1304">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_basic_parent/hotdog_basic_util/src/main/java/cn/hot/hotdog/util/LetterUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/IBrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/service/impl/BrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding>
-            <element signature="e#1132#1133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotdog_product_parent/hotdog_product_service_8002/src/main/java/cn/hot/hotdog/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +1520,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hotdog_product_service_8002|hotdog_product_parent and modules</last-edited>
+          <last-edited>hotdog_redis_service_8003|hotdog_common_parent and modules</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

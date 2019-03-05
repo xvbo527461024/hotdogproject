@@ -16,6 +16,9 @@
     <module>hotdog_plat_parent</module>
     <module>hotdog_product_parent</module>
       <module>hotdog_myplus_greatcode</module>
+      <module>hotdog_common_parent</module>
+      <module>hotdog_zuul_server_9528</module>
+    <module>hotdog_zuul_server_9528</module>
   </modules>
 
   <name>hotdog_parent</name>

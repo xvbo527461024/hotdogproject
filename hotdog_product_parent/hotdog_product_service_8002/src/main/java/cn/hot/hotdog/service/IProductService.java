@@ -14,6 +14,7 @@ import com.baomidou.mybatisplus.service.IService;
  * @since 2019-02-27
  */
 public interface IProductService extends IService<Product> {
-
-
+    @Override
+    boolean insert(Product product);
+    PageList<Product> selectQuery(ProductQuery query);
 }

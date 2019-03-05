@@ -2,9 +2,9 @@ package ${package.Controller};
 
 import ${package.Service}.${table.serviceName};
 import ${package.Entity}.${entity};
-import cn.itsource.aigou.query.${entity}Query;
-import cn.itsource.aigou.util.AjaxResult;
-import cn.itsource.aigou.util.PageList;
+import cn.hot.hotdog.query.${entity}Query;
+import cn.hot.hotdog.util.AjaxResult;
+import cn.hot.hotdog.util.PageList;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -26,20 +26,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-        <!--eureka的服务依赖-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-
-        <!--配置中心支持-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <!-- Eureka 客户端依赖 -->
@@ -48,23 +39,20 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!--swagger的支持-->
         <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
             <version>2.9.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+
+        <!--配置中心支持-->
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
-        <dependency>
-            <groupId>cn.hot.hotdog</groupId>
-            <artifactId>hotdog_product_interface</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+
 
         <!--mybatis-plus依赖:-->
         <dependency>
@@ -77,6 +65,22 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
+        <!--feign的接口的依赖-->
+       <dependency>
+            <groupId>cn.hot.hotdog</groupId>
+            <artifactId>hotdog_redies_interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
+        <!--fastjson依赖-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
 
     </dependencies>
 
