@@ -3,7 +3,8 @@ package cn.hot.hotdog.controller;
 import cn.hot.hotdog.util.AjaxResult;
 import cn.hot.hotdog.util.FastDfsApiOpr;
 import org.apache.commons.io.FilenameUtils;
-import org.omg.CORBA.StringHolder;
+import org.csource.common.MyException;
+import org.csource.fastdfs.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -25,7 +26,7 @@ public class fastdfaController {
         try {
             byte[] bytes = file.getBytes();
             String filePath = FastDfsApiOpr.upload(bytes, extName);
-           // System.out.println( originalFilename);
+
 
             return AjaxResult.me().setSuccess(true).setMsg("上传成功").setObject(filePath.substring(1) );
 
@@ -36,14 +37,14 @@ public class fastdfaController {
 
     }
     @RequestMapping(value = "/delete",method = RequestMethod.DELETE)
-    public AjaxResult delete(@RequestParam("filePath") String filePath,@RequestParam("id")String id){
+    public AjaxResult delete(@RequestParam("filePath") String filePath){
         System.out.println("filePath:"+filePath);
         //String filePath2 = filePath.substring(1);
         String groupName = filePath.substring(0, filePath.indexOf("/"));
         String fileName = filePath.substring(filePath.indexOf("/") + 1);
-      System.out.println("groupName:"+groupName);
+      System.out.println("groupName删除:"+groupName);
        System.out.println("fileName:"+fileName);
-       System.out.println("id:-----------------------------------------"+id);
+
 
         try {FastDfsApiOpr.delete(groupName, fileName);
 
@@ -84,10 +85,10 @@ public class fastdfaController {
             System.out.println(string);
         }
 
-    }*/
- public static void main(String[] args) {
+    }
+*/
 
 
  }
 
-}
+

@@ -10,7 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>hotdog_eureka_server_7001</module>
-    <module>hotdog_zuul_server_9527</module>
+    <module>hotdog_zuul_server_9528</module>
     <module>hotdog_config_server_1299</module>
     <module>hotdog_basic_parent</module>
     <module>hotdog_plat_parent</module>

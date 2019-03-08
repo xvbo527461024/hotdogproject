@@ -7,6 +7,8 @@ import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -38,6 +40,19 @@ public class Product extends Model<Product> {
      * 商品编码
      */
     private String code;
+
+    public List<ProductMedia> getProductMedia() {
+        return productMedia;
+    }
+
+    public void setProductMedia(List<ProductMedia> productMedia) {
+        this.productMedia = productMedia;
+    }
+
+    @TableField(exist = false)
+    private List<ProductMedia> productMedia=new ArrayList<>();
+
+
     /**
      * 商品类型ID
      */

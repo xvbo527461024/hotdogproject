@@ -6,7 +6,7 @@ import cn.hot.hotdog.util.query.QueryBase;
 /**
  *
  * @author xvbo
- * @since 2019-03-06
+ * @since 2019-03-07
  */
-public class ProductMediaQuery extends QueryBase {
+public class SkuQuery extends QueryBase {
 }

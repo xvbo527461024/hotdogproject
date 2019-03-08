@@ -1,5 +1,6 @@
 package cn.hot.hotdog.domain;
 
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.enums.IdType;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.activerecord.Model;
@@ -12,7 +13,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author xvbo
- * @since 2019-03-04
+ * @since 2019-03-06
  */
 @TableName("t_product_media")
 public class ProductMedia extends Model<ProductMedia> {
@@ -29,6 +30,18 @@ public class ProductMedia extends Model<ProductMedia> {
      * 媒体类型
      */
     private Integer mediaType;
+
+    public MediaType getType() {
+        return type;
+    }
+
+    public void setType(MediaType type) {
+        this.type = type;
+    }
+
+    @TableField(exist = false)//数据库不存在的字段
+
+    private MediaType type;
     private Integer sortIndex;
     /**
      * 资源地址

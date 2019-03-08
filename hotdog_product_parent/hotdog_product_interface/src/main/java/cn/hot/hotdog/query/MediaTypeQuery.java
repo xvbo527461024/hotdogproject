@@ -8,5 +8,5 @@ import cn.hot.hotdog.util.query.QueryBase;
  * @author xvbo
  * @since 2019-03-06
  */
-public class ProductMediaQuery extends QueryBase {
+public class MediaTypeQuery extends QueryBase {
 }

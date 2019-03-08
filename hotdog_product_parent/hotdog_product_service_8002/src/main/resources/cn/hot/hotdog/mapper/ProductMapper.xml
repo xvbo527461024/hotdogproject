@@ -50,6 +50,8 @@
             ep.id epid,
             ep.description description,
             ep.richContent richContent
+
+
         from t_product p
         LEFT JOIN t_product_ext ep
         on ep.productId = p.id
@@ -84,6 +86,10 @@
             <result column="description" property="description"/>
             <result column="richContent" property="richContent"/>
         </association>
+        <!--<collection property="productMedia" javaType="ProductMedia">
+            <id column="tmid" property="id"></id>
+            <result column="resource" property="resource"></result>
+        </collection>-->
     </resultMap>
 
 

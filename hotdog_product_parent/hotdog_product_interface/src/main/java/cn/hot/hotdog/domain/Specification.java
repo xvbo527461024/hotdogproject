@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -34,6 +36,17 @@ public class Specification extends Model<Specification> {
     private Integer type;
     @TableField(exist = false)
     private String value;
+
+    @TableField(exist = false)
+    private List<Specification> skuValues=new ArrayList<>();
+
+    public List<Specification> getSkuValues() {
+        return skuValues;
+    }
+
+    public void setSkuValues(List<Specification> skuValues) {
+        this.skuValues = skuValues;
+    }
 
     public String getValue() {
         return value;

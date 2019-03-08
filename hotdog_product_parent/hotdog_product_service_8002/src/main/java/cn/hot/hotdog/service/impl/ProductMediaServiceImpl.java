@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author xvbo
- * @since 2019-03-04
+ * @since 2019-03-06
  */
 @Service
 public class ProductMediaServiceImpl extends ServiceImpl<ProductMediaMapper, ProductMedia> implements IProductMediaService {

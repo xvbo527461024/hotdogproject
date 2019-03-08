@@ -11,13 +11,14 @@ import cn.hot.hotdog.util.AjaxResult;
 import cn.hot.hotdog.util.PageList;
 import com.alibaba.fastjson.JSONArray;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.baomidou.mybatisplus.plugins.Page;
+
+import org.aspectj.weaver.loadtime.Aj;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.lang.reflect.Array;
 import java.util.List;
 import java.util.Map;
+
 
 @RestController
 @RequestMapping("/product")
@@ -146,6 +147,33 @@ public class ProductController {
 
     }
 
+    @RequestMapping(value = "/viewProperties/{producttypeid}",method = RequestMethod.POST)
+    public List<Specification> skuProperties(@PathVariable("producttypeid")Long producttypeid){
+        List<Specification> specifications = iSpecificationService.selectList(new EntityWrapper<Specification>().eq("product_type_id", producttypeid).eq("type", 2l));
 
 
+        return specifications;
+        }
+
+        //product/product/skuProperties
+    @RequestMapping(value = "/skuProperties",method = RequestMethod.POST)
+    public AjaxResult addskuProperties( @RequestBody Map<String,Object> map){
+        try {
+            //  let params = {"productId": productId, "skuProperties": this.skuProperties,"skuDatas":this.skuDatas};
+            Object productId = map.get("productId");
+            List<Map<String,Object>> skuProperties = ( List<Map<String,Object>>)map.get("skuProperties");
+            List<Map<String,Object>> skuDatas =( List<Map<String,Object>>) map.get("skuDatas");
+            System.out.println("productId:"+productId);
+            System.out.println("skuProperties:"+skuProperties);
+            System.out.println("skuDatas:"+skuDatas);
+            productService.addskuPropertise(productId,skuProperties,skuDatas);
+            return AjaxResult.me().setMsg("ssku属性保存成功");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setMsg("sku属性保存失败:"+e.getMessage()).setSuccess(false);
+        }
+
+
+
+    }
 }
