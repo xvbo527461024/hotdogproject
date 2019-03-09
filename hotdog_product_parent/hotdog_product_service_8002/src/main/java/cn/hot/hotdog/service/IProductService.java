@@ -22,4 +22,8 @@ public interface IProductService extends IService<Product> {
     PageList<Product> selectQuery(ProductQuery query);
 
     void addskuPropertise(Object productId, List<Map<String, Object>> skuProperties, List<Map<String, Object>> skuDatas);
+
+    void putaway(Object ids, Object i);
+
+    void soldout(Object ids, Object i);
 }

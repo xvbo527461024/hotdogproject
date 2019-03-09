@@ -51,7 +51,15 @@ public class Product extends Model<Product> {
 
     @TableField(exist = false)
     private List<ProductMedia> productMedia=new ArrayList<>();
+    private String medias;
 
+    public String getMedias() {
+        return medias;
+    }
+
+    public void setMedias(String medias) {
+        this.medias = medias;
+    }
 
     /**
      * 商品类型ID
@@ -106,7 +114,7 @@ public class Product extends Model<Product> {
         if (onSaleTime==null){
             return null;
         }
-        SimpleDateFormat simpleFormatter = new SimpleDateFormat("yyyy:DD:mm");
+        SimpleDateFormat simpleFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String format = simpleFormatter.format(onSaleTime);
         return format;
     }
@@ -119,7 +127,7 @@ public class Product extends Model<Product> {
         if (offSaleTime==null){
             return null;
         }
-        SimpleDateFormat simpleFormatter = new SimpleDateFormat("yyyy:DD:mm");
+        SimpleDateFormat simpleFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String format = simpleFormatter.format(offSaleTime);
         return format;
     }

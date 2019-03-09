@@ -176,4 +176,30 @@ public class ProductController {
 
 
     }
+
+    //product/product/productEs 商品上架 let params=[{"ids":ids},{"i":i}];
+    @RequestMapping(value = "/productEs",method = RequestMethod.POST)
+    public AjaxResult putAway( @RequestBody Map<String,Object>  map) {
+        try {
+            Object ids = map.get("ids");
+            Object i = map.get("i");
+            if (ids != null && i != null) {
+                String id = ids.toString();
+                Long opt = Long.valueOf(i.toString());
+                if (opt == 1) {//上架
+                    productService.putaway(id, opt);
+                    return AjaxResult.me().setMsg("上架成功");
+                } else if (opt == 2) {//下架
+                    productService.soldout(id, opt);
+                    return AjaxResult.me().setMsg("下架成功");
+                }
+            }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            return AjaxResult.me().setMsg("操作失败:" + e.getMessage());
+        }
+
+        return AjaxResult.me().setSuccess(false).setMsg("请传入正确请求参数");
+    }
+
 }

@@ -91,6 +91,48 @@
             <result column="resource" property="resource"></result>
         </collection>-->
     </resultMap>
+<update id="updateAllputaway" parameterType="map">
+    UPDATE t_product t SET t.onSaleTime=#{onSaleTime},t.state=1
+     WHERE t.id in
+     <foreach collection="ids" item="m" separator="," close=")" open="(">
+         #{m}
+     </foreach>
 
 
+</update>
+
+    <update id="updateAllsoldout" parameterType="map">
+        UPDATE t_product t SET t.offSaleTime=#{offSaleTime},t.state=2
+        WHERE t.id in
+        <foreach collection="ids" item="m" separator="," close=")" open="(">
+            #{m}
+        </foreach>
+
+
+    </update>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </mapper>

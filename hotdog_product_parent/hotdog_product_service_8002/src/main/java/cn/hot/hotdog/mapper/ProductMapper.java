@@ -5,6 +5,7 @@ import cn.hot.hotdog.query.ProductQuery;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -21,4 +22,7 @@ public interface ProductMapper extends BaseMapper<Product> {
     List<Product> queryPageList(ProductQuery query);
 
 
+    void updateAllputaway(Map<String, Object> params);
+
+    void updateAllsoldout(Map<String, Object> params);
 }
